@@ -25,7 +25,7 @@ var getCookie = function getCookie(cname) {
   return "";
 };
 var accountHost = (0, _env_host["default"])("account.innovaitgh");
-var validateTokenFetch = function validateTokenFetch() {
+var validateTokenFetch = function validateTokenFetch(headers) {
   return fetch("".concat(accountHost, "/api/v1/validate_token"), {
     headers: headers
   });

@@ -27,7 +27,7 @@ const getCookie = (cname) => {
 const accountHost = envHost("account.innovaitgh");
 
 
-const validateTokenFetch = () => fetch(`${accountHost}/api/v1/validate_token`, { headers });
+const validateTokenFetch = (headers) => fetch(`${accountHost}/api/v1/validate_token`, { headers });
 
 
 const shouldRedirect = (headers) => {
