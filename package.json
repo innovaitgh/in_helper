@@ -1,0 +1,21 @@
+{
+  "name": "in_helper",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "babel src/index.js --out-dir dist",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.5.5",
+    "@babel/core": "^7.5.5",
+    "@babel/plugin-proposal-class-properties": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
+    "jest": "^27.4.5"
+  },
+  "peerDependencies": {
+    "env_host": "git+https://github.com/innovaitgh/env_host_module.git",
+    "query-string": "^7.1.0"
+  }
+}
