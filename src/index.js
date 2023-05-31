@@ -43,7 +43,7 @@ const shouldRedirect = (headers) => {
 
 }
 
-const getAuthCookie = (name) => getCookie(name);
+const getAuthCookie = () => getCookie("iu4");
 
 
 const clearCookie = (name) => setCookie(name, "", 0);
