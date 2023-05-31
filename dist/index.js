@@ -40,8 +40,8 @@ var shouldRedirect = function shouldRedirect(headers) {
   }
   return false;
 };
-var getAuthCookie = function getAuthCookie(name) {
-  return getCookie(name);
+var getAuthCookie = function getAuthCookie() {
+  return getCookie("iu4");
 };
 var clearCookie = function clearCookie(name) {
   return setCookie(name, "", 0);
